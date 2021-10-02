@@ -31,9 +31,9 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 ## ☕ Usando <GeniusFlaskAPI>
 
 Para usar <GeniusFlaskAPI>, siga estas etapas:
-
+Após configurar o ambiente:
 ```
-<Após configurar o ambiente clone o repositório>
+clone o repositório: git clone 
 ```
 
 Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Fornece uma referência de opções para pontos de bônus!
