@@ -31,9 +31,15 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 ## ☕ Usando <GeniusFlaskAPI>
 
 Para usar <GeniusFlaskAPI>, siga estas etapas:
-Após configurar o ambiente:
+
+  Após configurar o ambiente:
 ```
-clone o repositório: git clone 
+clone o repositório: git clone https://github.com/xelel/GeniusFlaskAPI.git
+```
+
+ Armazene os valores das credenciais nos scripts: genius.py e dynamo_db.py:
+```
+class Genius( variável : self.ACCESS_TOKEN), class DynamoDB(variáveis : self.ACCESS_KEY,self.KEY_ID, self.REGION)
 ```
 
 Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Fornece uma referência de opções para pontos de bônus!
