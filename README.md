@@ -13,7 +13,7 @@ API que consome dados do repositório Genius com dados de músicas armazena no R
 <img src="exemplo-image.png" alt="exemplo imagem">
 
 > API REST desenvolvida em flask que consome dados da api Genius através da biblioteca lyricsgenius armazena para buscar as 10 músicas mais populares de artistas, e armazenar em cache no Redis e no banco de dados DynamoDB
-### Ajustes e melhorias
+
 
 
 ## 💻 Pré-requisitos
@@ -27,7 +27,7 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 * Gerar credenciais através do Amazon IAM Role
 * Todos os frameworks utilizados estão disponíveis no requirements.txt 
 * Para consumação de dados da API Genius foi utilizado o [framework](https://github.com/johnwmillr/LyricsGenius). Instruções de uso em: [Documentação](https://lyricsgenius.readthedocs.io/en/master/reference/types.html#classes)
-## ☕ Usando <nome_do_projeto>
+## ☕ Usando <GeniusFlaskAPI>
 
 Para usar <nome_do_projeto>, siga estas etapas:
 
