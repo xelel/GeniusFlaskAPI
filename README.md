@@ -59,4 +59,4 @@ http://127.0.0.1:5000/artist/Eminem?cache=True
 http://127.0.0.1:5000/artist/Eminem
 ```
 
-Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Fornece uma referência de opções para pontos de bônus!
+
