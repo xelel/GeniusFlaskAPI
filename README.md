@@ -19,24 +19,13 @@ API que consome dados do repositório Genius com dados de músicas armazena no R
 ## 💻 Pré-requisitos
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
-<!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
-* Você instalou a versão mais recente de `<linguagem / dependência / requeridos>`
-* Você tem uma máquina `<Windows / Linux / Mac>`. Indique qual sistema operacional é compatível / não compatível.
-* Você leu `<guia / link / documentação_relacionada_ao_projeto>`.
-
-## 🚀 Instalando <nome_do_projeto>
-
-Para instalar o <nome_do_projeto>, siga estas etapas:
-
-Linux e macOS:
-```
-<comando_de_instalação>
-```
-
-Windows:
-```
-<comando_de_instalação>
-```
+* Você instalou a biblioteca Flask e Flask-Restful 
+* Você instalou a biblioteca boto3 para acesso aos recursos AWS
+* Voce instalou o Redis no Python e no sistema Operacional(obs: O Redis foi instalado no Linux para esse projeto)
+* Você tem uma máquina `/ Linux / Mac>`. Obs: O projeto foi desenvolvido em Linux
+* Voce possui uma conta ativa AmazonAWS para acesso ao DynamoDB, para o access_ID e access_token serem gerados.
+* Gerar credenciais através do Amazon IAM Role
+* Todos os frameworks utilizados estão disponíveis no requirements.txt 
 
 ## ☕ Usando <nome_do_projeto>
 
