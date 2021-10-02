@@ -42,4 +42,21 @@ clone o repositório: git clone https://github.com/xelel/GeniusFlaskAPI.git
 class Genius( variável : self.ACCESS_TOKEN), class DynamoDB(variáveis : self.ACCESS_KEY,self.KEY_ID, self.REGION)
 ```
 
+Execute o script: app.py
+ 
+Após a API entrar em execução um link local será gerado para passagem de paramêtros.
+
+Exemplos de uso:
+```
+http://127.0.0.1:5000/artist/Eminem?cache=False
+```
+  
+```
+http://127.0.0.1:5000/artist/Eminem?cache=True
+```
+  
+```
+http://127.0.0.1:5000/artist/Eminem
+```
+
 Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Fornece uma referência de opções para pontos de bônus!
