@@ -50,7 +50,7 @@ Exemplos de uso:
 ```
 http://127.0.0.1:5000/artist/Eminem?cache=False
 ```
-  
+<img src="postman_false.png" alt="cachefalse">  
 ```
 http://127.0.0.1:5000/artist/Eminem?cache=True
 ```
@@ -58,5 +58,5 @@ http://127.0.0.1:5000/artist/Eminem?cache=True
 ```
 http://127.0.0.1:5000/artist/Eminem
 ```
-
+<img src="postman.png" alt="cachetrue">  
 
