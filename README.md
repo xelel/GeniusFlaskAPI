@@ -30,10 +30,10 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 * A instalação de todos os frameworks utilizados estão disponíveis no requirements.txt 
 ## ☕ Usando <GeniusFlaskAPI>
 
-Para usar <nome_do_projeto>, siga estas etapas:
+Para usar <GeniusFlaskAPI>, siga estas etapas:
 
 ```
-<exemplo_de_uso>
+<Após configurar o ambiente clone o repositório>
 ```
 
 Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Fornece uma referência de opções para pontos de bônus!
