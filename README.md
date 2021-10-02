@@ -44,7 +44,7 @@ class Genius( variável : self.ACCESS_TOKEN), class DynamoDB(variáveis : self.A
 
 Execute o script: app.py
  
-Após a API entrar em execução um link local será gerado para passagem de paramêtros.
+A API entrará em execução e um link local será gerado para passagem de paramêtros.
 
 Exemplos de uso:
 ```
