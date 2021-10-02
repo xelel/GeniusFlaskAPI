@@ -1,6 +1,6 @@
 
 # GeniusFlaskAPI
-
+[linkedin-url]: https://linkedin.com/in/marcellrl
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
@@ -8,7 +8,7 @@
 ![GitHub forks](https://img.shields.io/github/forks/iuricode/README-template?style=for-the-badge)
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
-![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/marcellrl/]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 <img src="app.png" alt="exemplo imagem">
 
 > API REST desenvolvida em flask que consome dados da api [Genius](https://docs.genius.com/) através da biblioteca [lyricsgenius](https://github.com/johnwmillr/LyricsGenius). Efetua a consulta das 10 músicas mais populares do artista passado como argumento via URN. Armazena em cache no Redis por 7 dias e salva no banco de dados DynamoDB. 
