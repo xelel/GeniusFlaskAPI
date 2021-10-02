@@ -22,7 +22,7 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 * Sistema Operacional ou ambiente virtual Linux.
 * Criar conta no [Genius](https://docs.genius.com/) e gerar credenciais
 * Instalar a biblioteca [Flask](https://flask.palletsprojects.com/en/2.0.x/) e [Flask-Restful](https://flask-restful.readthedocs.io/en/latest/) 
-* Instalar a biblioteca boto3 para acesso aos recursos AWS
+* Instalar a biblioteca [boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) para acesso aos recursos AWS
 * Instalar o Redis no Python(pip install redis) e no Linux. [passo a passo de instalação do Redis](https://danielcorcoranssql.wordpress.com/2019/03/19/setting-up-redis-cache-with-flask/)
 * Possuir uma conta ativa AmazonAWS para acesso ao [DynamoDB](https://aws.amazon.com/pt/dynamodb/), para o access_ID e access_token serem gerados.
 * Criar um usuário com permissões de utilização ao [DynamoDB](https://aws.amazon.com/pt/dynamodb/) e credenciais através do [Amazon IAM Role](https://docs.aws.amazon.com/pt_br/IAM/latest/UserGuide/id_roles.html)
