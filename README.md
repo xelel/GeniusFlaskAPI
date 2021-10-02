@@ -24,8 +24,8 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 * Instalar a biblioteca [Flask](https://flask.palletsprojects.com/en/2.0.x/) e [Flask-Restful](https://flask-restful.readthedocs.io/en/latest/) 
 * Instalar a biblioteca boto3 para acesso aos recursos AWS
 * Instalar o Redis no Python(pip install redis) e no Linux. [passo a passo de instalação do Redis](https://danielcorcoranssql.wordpress.com/2019/03/19/setting-up-redis-cache-with-flask/)
-* Voce possui uma conta ativa AmazonAWS para acesso ao DynamoDB, para o access_ID e access_token serem gerados.
-* Gerar credenciais através do Amazon IAM Role
+* Possuir uma conta ativa AmazonAWS para acesso ao [DynamoDB](https://aws.amazon.com/pt/dynamodb/), para o access_ID e access_token serem gerados.
+* Criar um usuário com permissões de utilização ao [DynamoDB](https://aws.amazon.com/pt/dynamodb/) e credenciais através do [Amazon IAM Role](https://docs.aws.amazon.com/pt_br/IAM/latest/UserGuide/id_roles.html)
 * Para consumação de dados da API Genius foi utilizado o [framework](https://github.com/johnwmillr/LyricsGenius) lyricgenius. Instruções de uso em: [Documentação](https://lyricsgenius.readthedocs.io/en/master/reference/types.html#classes)
 * A instalação de todos os frameworks utilizados estão disponíveis no requirements.txt 
 ## ☕ Usando <GeniusFlaskAPI>
