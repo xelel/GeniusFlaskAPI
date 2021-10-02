@@ -26,7 +26,7 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 * Voce possui uma conta ativa AmazonAWS para acesso ao DynamoDB, para o access_ID e access_token serem gerados.
 * Gerar credenciais através do Amazon IAM Role
 * Todos os frameworks utilizados estão disponíveis no requirements.txt 
-* Para consumação de dados da API Genius foi utilizado o [framework](https://github.com/johnwmillr/LyricsGenius). [Documentação](https://lyricsgenius.readthedocs.io/en/master/reference/types.html#classes)
+* Para consumação de dados da API Genius foi utilizado o [framework](https://github.com/johnwmillr/LyricsGenius). Instruções de uso em: [Documentação](https://lyricsgenius.readthedocs.io/en/master/reference/types.html#classes)
 ## ☕ Usando <nome_do_projeto>
 
 Para usar <nome_do_projeto>, siga estas etapas:
