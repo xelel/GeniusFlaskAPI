@@ -19,10 +19,11 @@
 ## 💻 Pré-requisitos
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
-* Você instalou a biblioteca Flask e Flask-Restful 
-* Você instalou a biblioteca boto3 para acesso aos recursos AWS
-* Voce instalou o Redis no Python e no sistema Operacional(obs: O Redis foi instalado no Linux para esse projeto)
-* Você tem uma máquina `/ Linux / Mac>`. Obs: O projeto foi desenvolvido em Linux
+* Criar conta no [Genius](https://docs.genius.com/) e gerar credenciais
+* Instalar a biblioteca [Flask](https://flask.palletsprojects.com/en/2.0.x/) e [Flask-Restful](https://flask-restful.readthedocs.io/en/latest/) 
+* Instalar a biblioteca boto3 para acesso aos recursos AWS
+* Instalar o Redis no Python(pip install redis) e no Linux. [passo a passo de instalação do Redis](https://danielcorcoranssql.wordpress.com/2019/03/19/setting-up-redis-cache-with-flask/)
+* Sistema Operacional ou ambiente virtual Linux. Obs: O projeto foi desenvolvido em Linux.
 * Voce possui uma conta ativa AmazonAWS para acesso ao DynamoDB, para o access_ID e access_token serem gerados.
 * Gerar credenciais através do Amazon IAM Role
 * Todos os frameworks utilizados estão disponíveis no requirements.txt 
