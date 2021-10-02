@@ -12,7 +12,7 @@ API que consome dados do repositório Genius com dados de músicas armazena no R
 
 <img src="exemplo-image.png" alt="exemplo imagem">
 
-> Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler.
+> API REST desenvolvida em flask que consome dados da api Genius através da biblioteca lyricsgenius armazena para buscar as 10 músicas mais populares de artistas, e armazenar em cache no Redis e no banco de dados DynamoDB
 ### Ajustes e melhorias
 
 
