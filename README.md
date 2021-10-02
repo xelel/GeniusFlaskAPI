@@ -11,19 +11,19 @@
 
 <img src="exemplo-image.png" alt="exemplo imagem">
 
-> API REST desenvolvida em flask que consome dados da api [Genius](https://docs.genius.com/) através da biblioteca [lyricsgenius](https://github.com/johnwmillr/LyricsGenius). Efetua a consulta das 10 músicas mais populares do artista passado como argumento via URN. Armazena em cache no Redis por 7 dias e salva no banco de dados DynamoDB. 
-> Caso o artista procurado esteja disponível em Cache Redis, a consulta será feita de forma mais rápida evitando a busca pelo banco de dados DynamoDB. A argumento cache=True pode ser passado via query_string, caso nenhum valor seja identificado o script levará em conta que cache=True.
-> Se o argumento query_string for estabelecido como cache= False, será verificado se o artista e suas músicas estão disponíveis em cache, caso afirmativo ele será deletado e inserido no DynamoDB.
+* API REST desenvolvida em flask que consome dados da api [Genius](https://docs.genius.com/) através da biblioteca [lyricsgenius](https://github.com/johnwmillr/LyricsGenius). Efetua a consulta das 10 músicas mais populares do artista passado como argumento via URN. Armazena em cache no Redis por 7 dias e salva no banco de dados DynamoDB. 
+* Caso o artista procurado esteja disponível em Cache Redis, a consulta será feita de forma mais rápida evitando a busca pelo banco de dados DynamoDB. A argumento cache=True pode ser passado via query_string, caso nenhum valor seja identificado o script levará em conta que cache=True.
+* Se o argumento query_string for estabelecido como cache= False, será verificado se o artista e suas músicas estão disponíveis em cache, caso afirmativo ele será deletado e inserido no DynamoDB.
 
 
 ## 💻 Pré-requisitos
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
+* Sistema Operacional ou ambiente virtual Linux.
 * Criar conta no [Genius](https://docs.genius.com/) e gerar credenciais
 * Instalar a biblioteca [Flask](https://flask.palletsprojects.com/en/2.0.x/) e [Flask-Restful](https://flask-restful.readthedocs.io/en/latest/) 
 * Instalar a biblioteca boto3 para acesso aos recursos AWS
 * Instalar o Redis no Python(pip install redis) e no Linux. [passo a passo de instalação do Redis](https://danielcorcoranssql.wordpress.com/2019/03/19/setting-up-redis-cache-with-flask/)
-* Sistema Operacional ou ambiente virtual Linux. Obs: O projeto foi desenvolvido em Linux.
 * Voce possui uma conta ativa AmazonAWS para acesso ao DynamoDB, para o access_ID e access_token serem gerados.
 * Gerar credenciais através do Amazon IAM Role
 * Todos os frameworks utilizados estão disponíveis no requirements.txt 
