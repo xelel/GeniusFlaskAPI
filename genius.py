@@ -7,7 +7,7 @@ class Genius:
     def __init__(self):
         """Inicialize class Genius
                      """
-        self.ACCESS_TOKEN = "q7zhP1ZDTjsAO22dTy7NbLFbQg8IkEpa20ckW1eGsgop0GAcbDm5FT4WvYj0BaFm"
+        self.ACCESS_TOKEN = "Cole aqui seu ACCESS_TOKEN GENIUS"
         self.genius = lg.Genius(self.ACCESS_TOKEN,  # Client access token from Genius Client API page
                                 skip_non_songs=True, excluded_terms=["(Remix)", "(Live)"])
 
