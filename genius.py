@@ -21,13 +21,16 @@ class Genius:
                        -------
                           """
         try:
+            # find the artist 10 most  popular musics
             artist = self.genius.search_artist(name, max_songs=k, sort='popularity', per_page=10)
+            #select artist musics
             artist_songs = artist.songs
+            #save songs title in list
             artist_songs_title = [song.title for song in artist_songs]
             return artist_songs_title
 
         except:  # Broad catch which will give us the name of artist and song that threw the exception
-            print(f"some exception at {name}")
+            print(f"Não foi possível encontrar as muśicas do artista: {name}")
 
 
 if __name__ == '__main__':
