@@ -12,12 +12,13 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
 
-<img src="app.png" alt="exemplo imagem">
+<img src="app.png" alt="script">
 
 > API REST desenvolvida em flask que consome dados da api [Genius](https://docs.genius.com/) através da biblioteca [lyricsgenius](https://github.com/johnwmillr/LyricsGenius). Efetua a consulta das 10 músicas mais populares do artista passado como argumento via URN. Armazena em cache no Redis por 7 dias e salva no banco de dados DynamoDB. 
 * Caso o artista procurado esteja disponível em Cache Redis, a consulta será feita de forma mais rápida evitando a busca pelo banco de dados DynamoDB. A argumento cache=True pode ser passado via query_string, caso nenhum valor seja identificado o script levará em conta que cache=True.
 * Se o argumento query_string for estabelecido como cache= False, será verificado se o artista e suas músicas estão disponíveis em cache, caso afirmativo ele será deletado e inserido no DynamoDB.
 
+<img src="dynamo.png" alt="dynamo">
 
 ## 💻 Pré-requisitos
 
