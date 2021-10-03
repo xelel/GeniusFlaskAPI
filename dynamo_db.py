@@ -12,8 +12,8 @@ class DynamoDB:
               -------
                  """
 
-        self.ACCESS_KEY = "au6G3aYh+iYjR4vLGPXUje1m6bnBwtfp8oiCCYzh"
-        self.KEY_ID = 'AKIAW5ELOXHNGPNS6S6G'
+        self.ACCESS_KEY = "Cole aqui seu ACCESS_KEY"
+        self.KEY_ID = 'Cole aqui seu KEY_ID'
         self.REGION = 'us-west-2'
         self.dynamodb = boto3.resource(service_name='dynamodb',
                                        region_name=self.REGION,
