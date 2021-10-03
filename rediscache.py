@@ -11,7 +11,8 @@ class RedisCache:
             port='6379')
 
     def add_cache(self, name, list_songs):
-        """ Function add registry data  on Redis.
+        """ Function add registry data  on Redis and
+            set the expiration time to key
                Args
                ----
                    name(str): artists name
